@@ -9,7 +9,7 @@ int [] AddArr(int n)
 int[] arr = new int[n];
 for(int i = 0; i < n; i++)
 {
-    Console.WriteLine("Введите  элемент массива", i + 1);
+    Console.WriteLine("Введите  элемент массива");
     arr[i] = Convert.ToInt32(Console.ReadLine());
 }
 return arr;

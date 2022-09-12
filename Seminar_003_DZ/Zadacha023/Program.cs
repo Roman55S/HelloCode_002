@@ -13,6 +13,6 @@ string KubN(int x)
     return result;
 }    
 Console.WriteLine("Введите любое число от 1 до N ");
-int x = Convert.ToInt32 (Console.ReadLine());
-string res = KubN(x);
+int N = Convert.ToInt32 (Console.ReadLine());
+string res = KubN(N);
 Console.WriteLine($"Таблица кубов чисел от 1 до N {res}");
